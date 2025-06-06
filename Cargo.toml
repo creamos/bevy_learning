@@ -5,6 +5,7 @@ edition = "2024"
 
 [dependencies]
 bevy = { version = "0.16.1" }
+bevy_scriptum = { version = "0.9", features = ["lua"] }
 bevy_rapier2d = { version = "*", features = [ "debug-render-2d", "parallel" ] }
 rand = "0.9.1"
 
